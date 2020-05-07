@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#map {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Leaflet Layers Control */
+
+.leaflet-control-layers {
+  border-radius: 0px;
+  border: 2px solid #999999;
+}
+
+.leaflet-control-layers-expanded
+{
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #999999;
+  border-radius: 0px;
+}
+
+#layercontrol {
+  padding: 10px;
+  background-color: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 2px solid #999999;
+}
+
+#layercontrol .title {
+  font-size: 12x;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Leaflet Draw */
+
+.leaflet-draw {
+  display: none;
+}
+
+.leaflet-draw-toolbar {
+  display: none;
+}
+
+.legend {
+	line-height: 18px;
+	border-radius: 0px;
+	color: #000;
+	background-color: transparent;
+	padding: 10px;
+	border: 2px solid #999999;
+}
+
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 0.7;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius:0;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
